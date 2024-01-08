@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 const mongoose = require("mongoose");
-// const MongoClient = require("mongodb").MongoClient;
+
 
 const connectBD = (url) => {
   return mongoose.connect(url, {
@@ -12,7 +11,3 @@ const connectBD = (url) => {
 };
 
 module.exports = connectBD;
-=======
-const connectionString =
-  "";
->>>>>>> origin/main

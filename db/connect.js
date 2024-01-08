@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const mongoose = require("mongoose");
 // const MongoClient = require("mongodb").MongoClient;
 
@@ -11,3 +12,7 @@ const connectBD = (url) => {
 };
 
 module.exports = connectBD;
+=======
+const connectionString =
+  "";
+>>>>>>> origin/main
